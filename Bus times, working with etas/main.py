@@ -2,7 +2,7 @@ import time
 from tfwm_service import TfwmService 
 
 ATCO_CODE = "43000203903" #bus stop code 
-REFRESH_SECONDS = 30
+REFRESH_SECONDS = 30.0
 
 def main():
     while True:
@@ -14,5 +14,6 @@ def main():
         time.sleep(REFRESH_MS)
 if __name__ == "__main__":
     main()
+
 
 
